@@ -1,0 +1,24 @@
+div.a {
+    white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow:  clip; 
+  }
+  
+div.b {
+    white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+  
+div.c {
+    white-space: nowrap; 
+    width: 50px; 
+    overflow: hidden;
+}
+.gradient {
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(red, yellow);
+}
